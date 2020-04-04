@@ -1,0 +1,22 @@
+/* Float button */
+.top {
+  position: fixed;
+  top: 92%;
+  right: 40px;
+}
+
+.top .button {
+  background: #261050;
+  padding: 10px;
+}
+
+.top .button:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 400ms ease;
+}
+
+@media (max-width: 820px) {
+  .top {
+    display: none;
+  }
+}

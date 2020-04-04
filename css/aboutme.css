@@ -1,0 +1,202 @@
+.first-section .container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 140px;
+  padding: 0 30px;
+  margin-bottom: 60px;
+}
+
+.first-section .container {
+  max-width: 1280px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-section .img-about {
+  max-width: 620px;
+}
+
+.first-section .bloc-text {
+  padding: 20px;
+}
+
+.first-section .title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #261050;
+  margin-bottom: 40px;
+}
+
+.first-section .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #303030;
+  margin-bottom: 40px;
+}
+
+.first-section .bloc-text .title-skills {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.first-section .bloc-text .list-skills {
+  margin-top: 20px;
+}
+
+.first-section .bloc-text .skill {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #303030;
+  margin-top: 10px;
+}
+
+
+.second-section {
+  padding: 50px 0 10px;
+  width: 100%;
+  background-color: #efefef;
+}
+
+.second-section .title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #252525;
+  margin-bottom: 30px;
+}
+
+.second-section .line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.second-section .line .curse {
+  margin-bottom: 10px;
+  color: #303030;
+}
+
+.second-section .line .curse .title-curse {
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.second-section .line .curse .institution {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.4em;
+}
+
+.second-section .line .curse .year {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.4em;
+}
+
+.second-section .line .column1 {
+  width: 50%;
+}
+
+.second-section .line .column2 {
+  width: 50%;
+}
+
+
+@media (max-width: 1160px) {
+  .first-section .img-about {
+    width: auto;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .first-section .img-about {
+    width: auto;
+    height: 520px;
+  }
+}
+
+@media (max-width: 940px) {
+  .first-section .img-about {
+    width: auto;
+    height: 450px;
+  }
+}
+
+@media (max-width: 820px) {
+  .first-section .container {
+    margin-bottom: 30px;
+  }
+
+  .first-section .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .first-section .text {
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+
+  .first-section .bloc-text .skill {
+    line-height: 1.4em;
+    color: #303030;
+    margin-top: 5px;
+  }
+
+  .first-section .img-about {
+    width: auto;
+    height: 400px;
+  }
+
+  .second-section .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .first-section .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 5%;
+    width: 90%;
+  }
+
+  .first-section .img-about {
+    display: none;
+  }
+
+  .first-section .bloc-text {
+    padding: 20px 0;
+  }
+
+  .second-section .line {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    width: 90%;
+  }
+
+  .second-section .line .column1 {
+    width: 100%;
+  }
+
+  .second-section .line .column2 {
+    width: 100%;
+  }
+
+  .second-section .title {
+    padding: 0 5%;
+  }
+
+  .second-section .line .curse .title-curse {
+    font-size: 18px;
+  }
+}
