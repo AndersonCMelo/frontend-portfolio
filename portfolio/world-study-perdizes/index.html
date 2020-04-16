@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="../../css/portfolio-interna-site-responsive.css">
   <link rel="stylesheet" href="../../css/footer.css">
 </head>
-<body>
+<body id="topo">
   <!-- Header -->
   <header>
     <div class="desktop-header">
@@ -72,8 +72,8 @@
 
   <!-- Float Button -->
   <div class="top">
-    <a href="./"><img class="button" src="../../assets/top.svg" alt=""></a>
-  </div>
+    <button class="btnTop" onclick="backToTop()"><img class="button img" src="../../assets/top.svg" alt=""></button>
+  </div> 
 
   <!-- First Section -->
   <section class="first-section">
@@ -184,5 +184,6 @@
   </footer>
 
   <script src="../../js/btnMenu.js"></script>
+  <script src="../../js/btnTop.js"></script>
 </body>
 </html>

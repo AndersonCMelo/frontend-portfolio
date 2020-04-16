@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="./css/homepage.css">
   <link rel="stylesheet" href="./css/footer.css">
 </head>
-<body>
+<body id="topo">
   <!-- Header -->
   <header>
     <div class="desktop-header">
@@ -71,7 +71,7 @@
 
   <!-- Float Button -->
   <div class="top">
-    <a href="./"><img class="button" src="./assets/top.svg" alt=""></a>
+    <button class="btnTop" onclick="backToTop()"><img class="button img" src="./assets/top.svg" alt=""></button>
   </div> 
 
   <main class="container">
@@ -162,6 +162,7 @@
     </div>
   </footer>
 
-  <script src="js/btnMenu.js"></script>
+  <script src="./js/btnMenu.js"></script>
+  <script src="./js/btnTop.js"></script>
 </body>
 </html>
