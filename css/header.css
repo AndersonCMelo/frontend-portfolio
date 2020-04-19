@@ -1,54 +1,47 @@
-header {
-  position: fixed;
-  z-index: 5;
-  top: 0;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+.header {
+  background: linear-gradient(to bottom,#000,#2d2d2d);
 }
 
-header .desktop-header {
-  max-width: 1280px;
-  width: 95%;
+.header .content {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   margin-left: auto;
   margin-right: auto;
 }
 
-header .desktop-header {
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-header .logo {
-  height: 70px;
-}
-
-header .normal-menu {
+.header .menu {
   display: flex;
   flex-direction: row;
 }
 
-header .normal-menu li {
+.header .menu li + li {
   margin-left: 40px;
 }
 
-header .normal-menu li a {
+.header .menu li a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
-  color: #261050;
+  color: #fff;
 }
 
-header .normal-menu li a:hover {
-  color: #FFB914;
+.header .menu li a:hover {
+  color: #6AA703;
   transition: all 400ms ease;
 }
 
-header .normal-menu li .active {
-  color: #FFB914;
+.header .menu li .active {
+  color: #6AA703;
   padding: 0 0 3px 0;
   border-bottom: 2px solid;
+}
+
+.header .content .social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
 }

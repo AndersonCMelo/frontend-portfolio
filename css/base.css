@@ -4,27 +4,22 @@
   box-sizing: border-box;
   border: 0;
   scroll-behavior: smooth;
+  list-style: none;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #ffffff;
   min-width: 290px;
 }
 
 .container {
-  max-width: 1280px;
-  width: 95%;
+  max-width: 100%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  background: #261050;
+a {
+  text-decoration: none;
 }

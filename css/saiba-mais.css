@@ -1,0 +1,48 @@
+.first-section .container {
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+
+.first-section .title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.first-section .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #222;
+}
+
+.first-section .subtext {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #222;
+  margin-bottom: 60px;
+  opacity: 0.7;
+}
+
+.first-section .content .subtitle {
+  margin-bottom: 20px;
+}
+
+.first-section .content .link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6AA703;
+  
+  transition: 400ms ease;
+}
+
+.first-section .content .link:hover {
+  color: #226900;
+}
+
+.first-section .content .fonte {
+  font-size: 14px;
+  margin-bottom: 30px;
+}

@@ -19,59 +19,32 @@
 
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/header.css">
-  <link rel="stylesheet" href="../css/floatbuttons.css">
-  <link rel="stylesheet" href="../css/mobilemenu.css">
   <link rel="stylesheet" href="../css/aboutme.css">
   <link rel="stylesheet" href="../css/footer.css">
 </head>
-<body id="topo">
+<body>
   <!-- Header -->
-  <header>
-    <div class="desktop-header">
-      <a href="../">
-        <img class="logo" src="../assets/Logo.svg" alt="Logo">
-      </a>
+  <header class="header">
+    <div class="content container">
+      <a href="../"><img class="logo" src="../assets/covidNEWS.svg" alt=""></a>
+
       <nav>
-        <ul class="normal-menu">
+        <ul class="menu">
           <li><a href="../">Home</a></li>
           <li><a class="active" href="./">Sobre mim</a></li>
-          <li><a href="../portfolio/">Portfólio</a></li>
           <li><a href="../contato/">Fale comigo</a></li>
+          <li><a href="../saiba-mais/">Saiba mais</a></li>
         </ul>
       </nav>
-    </div>
 
-    <div class="mobile-header">
-      <a href="../"><img class="logo" src="../assets/Logo.svg" alt="Logo"></a>
-
-      <nav class="wrap-menu">
-        <a href="#opened-menu" class="btnMenu btnMenu_open"><img class="button" src="../assets/menu-open.svg" alt=""></a>
-
-        <div id="opened-menu" class="opened-menu">
-          <div class="opened-header">
-            <a href="../"><img class="logo" src="../assets/Logo-white.svg" alt="Logo"></a>
-          
-            <a class="btnMenu_close_bloc" href=""><img class="btnMenu btnMenu_close" src="../assets/menu-close.svg" alt=""></a>
-          </div>
-          
-          <ul id="menu" class="menu">
-            <li class="menu-item"><a href="../" class="menu-item-action">Home</a></li>
-            <li class="menu-item"><a href="./" class="menu-item-action">Sobre mim</a></li>
-            <li class="menu-item"><a href="../portfolio/" class="menu-item-action">Portfólio</a></li>
-            <li class="menu-item"><a href="../contato/" class="menu-item-action">Fale comigo</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/anderson-melo-111677155/" target="_blank"><img src="../assets/Linkedin Icon Green 2.svg" alt=""></a>
+        <a href="https://github.com/AndersonCMelo" target="_blank"><img src="../assets/Github Icon Green 2.svg" alt=""></a>
+      </div>
     </div>
   </header>
-
-  <!-- Float Button -->
-  <div class="top">
-    <button class="btnTop" onclick="backToTop()"><img class="button img" src="../assets/top.svg" alt=""></button>
-  </div> 
   
   <!-- First Section -->
   <section class="first-section">
@@ -81,13 +54,6 @@
         <h1 class="title">Sobre mim</h1>
         <p class="text">Um apaixonado por tecnologia, ficção científica e tudo o que a imaginação humana pode criar. Trabalho como designer desde 2016, Meu foco é no trabalho com interfaces digitais buscando a melhor experiência para os usuários.</p>
         <p class="text">Durante minha jornada como designer busquei aprimorar minhas habilidades em tecnologia, no uso de dados e em marketing, tornando minha visão sobre os problemas mais diversificadas.</p>
-        <span class="title-skills">Habilidades:</span>
-        <ul class="list-skills">
-          <li class="skill">_ UX/UI Design</li>
-          <li class="skill">_ HTML, CSS e JavaScript</li>
-          <li class="skill">_ Design Thinking</li>
-          <li class="skill">_ Marketing Digital</li>
-        </ul>
       </div>
     </div>
   </section>
@@ -125,11 +91,6 @@
             <p class="institution">Rocketseat</p>
             <p class="year">2019-atual</p>
           </div>
-          <div class="curse">
-            <p class="title-curse">Product Design</p>
-            <p class="institution">Udacity</p>
-            <p class="year">2019-atual</p>
-          </div>
         </div>
       </div>
 
@@ -153,40 +114,14 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="infos-footer">
-      <div class="column01">
-        <a href="../"><img class="logo" src="../assets/Logo-white.svg" alt=""></a>
-        <p class="text">UX/UI Design e Front-End Developer</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/anderson-melo-111677155/" target="_blank"><img src="../assets/Linkedin Icon.svg" alt=""></a>
-          <a href="https://www.instagram.com/andersonmelooo/?hl=pt-br" target="_blank"><img src="../assets/instagram Icon.svg" alt=""></a>
-          <a href="https://github.com/AndersonCMelo" target="_blank"><img src="../assets/Github Icon.svg" alt=""></a>
-      </div> 
-      </div>
-      
-      <div class="column02">
-        <div class="contact">
-          <h3 class="title">Entre em contato</h2>
-          <a class="link" href="mailto:andersonmelo13@gmail.com"><p class="text">andersonmelo13@gmail.com</p></a>
-          <a class="link" href="tel:+5583996135977"><p class="text">83 99613 5977</p></a>
-        </div>
+    <div class="content container">
+      <p class="text">© 2020 Anderson Melo. Todos os direitos reservados.</p>
 
-        <div class="footer-menu">
-          <h3 class="title">Explore</h2>
-            <nav>
-              <ul class="navigation">
-                <li><a href="../">Home</a></li>
-                <li><a href="./">Sobre mim</a></li>
-                <li><a href="../portfolio/">Portfólio</a></li>
-                <li><a href="../contato/">Fale comigo</a></li>
-              </ul>
-            </nav>
-        </div>
-      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/anderson-melo-111677155/" target="_blank"><img class="icon" src="../assets/Linkedin Icon Green 2.svg" alt=""></a>
+        <a href="https://github.com/AndersonCMelo" target="_blank"><img class="icon" src="../assets/Github Icon Green 2.svg" alt=""></a>
+      </div> 
     </div>
   </footer>
-
-  <script src="../js/btnMenu.js"></script>
-  <script src="../js/btnTop.js"></script>
 </body>
 </html>
