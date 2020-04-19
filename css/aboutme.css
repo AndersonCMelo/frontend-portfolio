@@ -23,8 +23,8 @@
 
 .first-section .title {
   font-size: 40px;
-  font-weight: bold;
-  color: #222;
+  font-weight: 600;
+  color: #261050;
   margin-bottom: 40px;
 }
 
@@ -36,6 +36,23 @@
   margin-bottom: 40px;
 }
 
+.first-section .bloc-text .title-skills {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.first-section .bloc-text .list-skills {
+  margin-top: 20px;
+}
+
+.first-section .bloc-text .skill {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #303030;
+  margin-top: 10px;
+}
+
 
 .second-section {
   padding: 50px 0 10px;
@@ -44,8 +61,8 @@
 }
 
 .second-section .title {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 600;
   color: #252525;
   margin-bottom: 30px;
 }

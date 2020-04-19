@@ -1,123 +1,308 @@
 .first-section {
-  margin-top: 160px;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 220px;
+  padding: 0 30px;
+  margin-bottom: 160px;
 }
 
 .first-section .title {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 600;
-  color: #222;
-  display: flex;
-  margin-bottom: 70px;
+  color: #261050;
+  margin-right: 40px;
 }
 
-.first-section .line-one {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  height: 500px;
+.first-section .bloc-text-button {
+  width: 55%;
 }
 
-.first-section .line-one .news {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-
-  transition: 400ms ease;
-}
-
-.first-section .line-one .news .space {
-  height: 400px;
-}
-
-.first-section .line-one .news .news-title {
+.first-section .bloc-text-button .text {
   font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  margin: 50px 20px 10px 20px;
+  color: #261050;
+  line-height: 1.6em;
 }
 
-.first-section .line-one .news .news-button {
-  background: none;
-  font-size: 14px;
-  color: #b6b6b6;
-  margin: 0 20px 20px 20px;
+.first-section .bloc-text-button .button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  padding: 15px 30px;
+  background-color: #FFB914;
+  border: 0;
+  margin-top: 60px;
   cursor: pointer;
 }
 
-.first-section .line-one .news01 {
-  background-image: url("https://s2.glbimg.com/7oosZunZULjzeYdDW6a8FBCLY9c=/0x0:1620x1400/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/u/O/daALBnQbei91FVinseZg/4014a20k-pb.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 500px;
-}
-
-.first-section .line-one .news02 {
-  background-image: url("https://conteudo.imguol.com.br/c/noticias/13/2020/04/16/um-medico-em-traje-de-protecao-visita-uma-pessoa-que-sofre-da-doenca-de-coronavirus-covid-19-em-sua-casa-em-bergamo-o-epicentro-do-surto-da-italia-1587086313623_v2_900x506.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 240px;
-}
-
-.first-section .line-one .news03 {
-  background-image: url("https://s.yimg.com/ny/api/res/1.2/D_I2D1Lhcslw.do6JiPFpw--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/https://media.zenfs.com/pt/folhapress_805/b57a88751e55be6678c390b289758088");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 240px;
-  margin-top: 20px;
-}
-
-.first-section .line-one .news .news-content {
-  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));;
-}
-
-.first-section .line-one .news:hover {
-  transform: scale(0.99);
+.first-section .bloc-text-button .button:hover {
+  background-color: #261050;
+  transform: scale(0.97, 0.97);
+  transition: all 400ms ease;
 }
 
 .second-section {
+  padding: 0 30px;
+  margin-bottom: 120px;
+}
+
+.second-section .title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #261050;
+  display: flex;
+  justify-content: center;
   margin-bottom: 70px;
 }
 
-.second-section .section-title {
-  font-size: 30px;
-  margin-bottom: 50px;
-}
-
-.second-section .content .videos .video {
+.second-section .line-one {
   display: flex;
   flex-direction: row;
-  padding: 20px 0;
+  justify-content: space-between;
 }
 
-.second-section .content .videos .video .thumb {
-  width: 530px;
-  height: 300px;
-  margin-right: 30px;
+.second-section .line-one a {
+  text-decoration: none;
 }
 
-.second-section .content .videos .video .title {
-  font-size: 22px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+.second-section .line-one .img {
+  max-width: 500px;
+  transition: 0.4s ease; 
 }
 
-.second-section .content .videos .video .button {
-  margin-top: 60px;
-  font-weight: bold;
-  color: #fff;
-  background: #6AA703;
-  padding: 10px 15px;
-  border-radius: 4px;
+.second-section .line-one .img:hover {
+  transform: scale(0.99);
+  position: static;
+  z-index: 1;
+}
+
+.second-section .line-one .project-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  margin: 30px 0 15px;
+}
+
+.second-section .line-one span {
+  font-size: 18px;
+  color: #666666;
+}
+
+.second-section .line-one .project02 {
+  margin-top: 50px;
+}
+
+.second-section .line-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.second-section .line-two a {
+  text-decoration: none;
+}
+
+.second-section .line-two .img {
+  max-width: 500px;
+  transition: 0.4s ease;
+}
+
+.second-section .line-two .img:hover {
+  transform: scale(0.99, 0.99);
+  position: static;
+  z-index: 1;
+}
+
+.second-section .line-two .project-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  margin: 30px 0 15px;
+}
+
+.second-section .line-two span {
+  font-size: 18px;
+  color: #666666;
+}
+
+.second-section .line-two .project04 {
+  margin-top: 50px;
+}
+
+.second-section .bloc-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.second-section .button-portfolio {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  padding: 15px 30px;
+  background-color: #261050;
+  border: 0;
   cursor: pointer;
+} 
 
-  transition: 400ms ease;
+.second-section .button-portfolio:hover {
+  background-color: #FFB914;
+  transform: scale(0.97, 0.97);
+  transition: all 400ms ease;
 }
 
-.second-section .content .videos .video .button:hover {
-  background: #226900;
-  transform: scale(0.98);
+
+/* RESPONSIVE */
+@media (max-width: 1160px) {
+  .second-section .line-one .img {
+    max-width: 450px;
+  }
+
+  .second-section .line-two .img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .second-section .line-one .img {
+    max-width: 400px;
+  }
+
+  .second-section .line-one .project-title {
+    font-size: 22px;
+  }
+
+  .second-section .line-two .img {
+    max-width: 400px;
+  }
+
+  .second-section .line-two .project-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 940px) {
+  .first-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-section .title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .first-section .bloc-text-button {
+    width: 70%;
+  }
+
+  .second-section .line-one .img {
+    max-width: 350px;
+  }
+
+  .second-section .line-one .project-title {
+    font-size: 22px;
+  }
+
+  .second-section .line-two .img {
+    max-width: 350px;
+  }
+
+  .second-section .line-two .project-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 840px) {
+  .first-section .title {
+    font-size: 50px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .first-section .bloc-text-button {
+    width: 70%;
+  }
+
+  .second-section .line-one .img {
+    max-width: 350px;
+  }
+
+  .second-section .line-one .project-title {
+    font-size: 22px;
+  }
+
+  .second-section .line-two .img {
+    max-width: 350px;
+  }
+
+  .second-section .line-two .project-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+  .first-section {
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .first-section .title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .first-section .bloc-text-button .text {
+    font-size: 18px;
+  }
+
+  .first-section .bloc-text-button {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .second-section {
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
+
+  .second-section .line-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .second-section .line-one .img {
+    max-width: 100%;
+  }
+
+  .second-section .line-one .project-title {
+    font-size: 22px;
+  }
+
+  .second-section .line-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .second-section .line-two .img {
+    max-width: 100%;
+  }
+
+  .second-section .line-two .project-title {
+    font-size: 22px;
+  }
+  
+.second-section .bloc-button {
+  margin-top: 60px;
+}
 }
