@@ -69,6 +69,19 @@ header .opened-header {
   margin-top: 35px;
 }
 
+header .mobile-header .devPortfolio {
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+  color: #FFF;
+  padding: 15px 20px;
+  border-radius: 30px;
+  background: linear-gradient(100.22deg, #3040D6 0%, #5E2ACD 85.94%);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+}
+
 @media (min-width: 701px) {
   header .mobile-header {
     display: none;
