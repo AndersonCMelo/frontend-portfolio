@@ -1,0 +1,57 @@
+@media (max-width: 900px) {
+  .block-form {
+    padding: 40px 50px 20px;
+    transform: translateX(700px);
+  }
+}
+
+@media (max-width: 700px) {
+  .block-form {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    z-index: 100;
+    padding: 30px 5% 20px;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .block-form .btnCloseForm {
+    position: fixed;
+    top: 20px;
+    right: 5%;
+  }
+
+  .block-form .title {
+    font-size: 24px;
+  }
+
+  .block-form .description {
+    font-size: 15px;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+
+  .block-form .form .text-input {
+    height: 40px;
+    padding-left: 10px;
+  
+    font-size: 15px;
+  }
+
+  .block-form .form .text-input::placeholder {
+    font-size: 15px;
+  }
+
+  .block-form .form textarea.text-input {
+    height: 120px;
+  }
+
+  .block-form .form .layout .label {
+    margin-bottom: 5px;
+  }
+
+  .block-form .form .button {
+    font-size: 16px;
+  }
+}
