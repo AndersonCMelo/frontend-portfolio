@@ -110,6 +110,8 @@ body {
 .third-section .box .img {
   border-radius: 6px;
   margin-right: 40px;
+  width: 450px;
+  height: 450px;
 }
 
 .third-section .box .title {
